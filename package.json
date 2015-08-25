@@ -1,0 +1,9 @@
+{
+  "name": "sprity-sass-bare",
+  "version": "0.1.0",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "fs-extra": "^0.23.1"
+  }
+}
