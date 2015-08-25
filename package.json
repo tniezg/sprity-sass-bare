@@ -1,9 +1,14 @@
 {
   "name": "sprity-sass-bare",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "description": "much simpler scss map generator, based on sprity-sass",
   "main": "index.js",
   "dependencies": {
     "bluebird": "^2.9.34",
     "fs-extra": "^0.23.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https@github.com:tniezg/sprity-sass-bare.git"
   }
 }

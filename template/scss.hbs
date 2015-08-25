@@ -1,7 +1,7 @@
 $sprites: (
   {{#each layouts}}
   {{#each layout.items}}
-    {{#if ../../opt.split}}{{cssesc ../../name}}-{{/if}}{{cssesc meta.name}}: -{{baseDim x}}px -{{baseDim y}}px {{baseDim width}}px {{baseDim height}}px{{#if @last}},{{/if}}
+  {{#if ../../opt.split}}{{cssesc ../../name}}-{{/if}}{{cssesc meta.name}}: -{{baseDim x}}px -{{baseDim y}}px {{baseDim width}}px {{baseDim height}}px{{#unless @last}},{{/unless}}
   {{/each}}
   {{/each}}
 );
