@@ -1,6 +1,6 @@
 {
   "name": "sprity-sass-bare",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "much simpler scss map generator, based on sprity-sass",
   "main": "index.js",
   "dependencies": {
